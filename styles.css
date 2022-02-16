@@ -140,26 +140,29 @@ a:hover {
 
 #howItWorks {
     text-align: center;
-    padding-left: 2em;
-    padding-right: 2em;
-    /* Where should I put the margins if I only want text to have margins, and want my background to extend? 
-    And what's the difference between using padding here or margins here? */
 }
 
 .blueBack {
     background-color: #eaf3fe;
+    margin-top: -1.3em;
 }
 
 .grayBack {
     background-color: #f4ede1;
+    margin-top: -1.3em;
 }
 
 h1 {
     font-size: 1.5em;
+    padding-top: 1.5em;
 }
 
 p {
     font-size: 1.2em;
+    margin-top: -1em;
+    padding-bottom: 1.5em;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 .sectionTitle {
