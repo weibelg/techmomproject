@@ -1,295 +1,296 @@
                                                 body {
-                                                font-family: 'Montserrat', sans-serif;
-                                            }
-                                            
-                                            #header {
-                                                background-color: #fee6e7;
-                                                font-family: 'Montserrat', sans-serif;
-                                                font-size: 18px;
-                                                padding: 10px;
-                                                text-align: center;
-                                            }
-                                            
-                                            .button {
-                                                border: none;
-                                                color: black;
-                                                padding: 20px 30px;
-                                                text-align: center;
-                                                font-size: x-large;
-                                                text-decoration: none;
-                                                display: inline-block;
-                                                /* font-size: 30 px;  Nothing seems to actually change. */
-                                                margin: 4px 2px;
-                                                cursor: pointer;
-                                                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-                                            }
-                                            
-                                            .button1 {
-                                                background-color: #f62e3b;
-                                                animation-name: flyleft;
-                                                animation-duration: 4s;
-                                                animation-delay: 1s;
-                                                animation-iteration-count: 30;
-                                            }
-                                            /* my animation is not working at all. what is up?? */
-                                            
-                                            @keyframes flyleft {
-                                                0% {
-                                                    left: 0px;
-                                                    top: 0px;
+                                                    font-family: 'Montserrat', sans-serif;
                                                 }
-                                                25% {
-                                                    left: 200px;
-                                                    top: 0px;
+                                                
+                                                #header {
+                                                    background-color: #fee6e7;
+                                                    font-family: 'Montserrat', sans-serif;
+                                                    font-size: 18px;
+                                                    padding: 10px;
+                                                    text-align: center;
                                                 }
-                                                50% {
-                                                    left: 200px;
-                                                    top: 200px;
+                                                
+                                                .button {
+                                                    border: none;
+                                                    color: black;
+                                                    padding: 20px 30px;
+                                                    text-align: center;
+                                                    font-size: x-large;
+                                                    text-decoration: none;
+                                                    display: inline-block;
+                                                    /* font-size: 30 px;  Nothing seems to actually change. */
+                                                    margin: 4px 2px;
+                                                    cursor: pointer;
+                                                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
                                                 }
-                                                75% {
-                                                    left: 0px;
-                                                    top: 200px;
+                                                
+                                                .button1 {
+                                                    background-color: #f62e3b;
+                                                    animation-name: flyleft;
+                                                    animation-duration: 4s;
+                                                    animation-delay: 1s;
+                                                    animation-iteration-count: 30;
                                                 }
-                                                100% {
-                                                    left: 0px;
-                                                    top: 0px;
+                                                /* my animation is not working at all. what is up?? */
+                                                
+                                                @keyframes flyleft {
+                                                    0% {
+                                                        left: 0px;
+                                                        top: 0px;
+                                                    }
+                                                    25% {
+                                                        left: 200px;
+                                                        top: 0px;
+                                                    }
+                                                    50% {
+                                                        left: 200px;
+                                                        top: 200px;
+                                                    }
+                                                    75% {
+                                                        left: 0px;
+                                                        top: 200px;
+                                                    }
+                                                    100% {
+                                                        left: 0px;
+                                                        top: 0px;
+                                                    }
                                                 }
-                                            }
-                                            
-                                            .button2 {
-                                                background-color: #008CBA;
-                                            }
-                                            
-                                            button:hover {
-                                                color: #123862;
-                                                background-color: #dbf62e;
-                                            }
-                                            
-                                            #navbar {
-                                                display: grid;
-                                                grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr;
-                                                font-family: 'Montserrat', sans-serif;
-                                                font-size: 18px;
-                                            }
-                                            
-                                            #libnav {
-                                                display: grid;
-                                                grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
-                                                grid-template-rows: 1fr 1fr;
-                                                font-family: 'Montserrat', sans-serif;
-                                                font-size: 18px;
-                                                background-color: lightblue;
-                                            }
-                                            
-                                            .nav1 {
-                                                grid-row: 1;
-                                                grid-column: 0/1;
-                                                font-family: 'Festive', cursive;
-                                                font-size: 40px;
-                                                display: flex;
-                                                align-items: center;
-                                            }
-                                            
-                                            .nav2 {
-                                                grid-row: 1;
-                                                grid-column 1/2;
-                                                padding: 2em;
-                                                justify-self: center;
-                                            }
-                                            
-                                            .nav3 {
-                                                grid-row: 1;
-                                                grid-column 2/3;
-                                                padding: 2em;
-                                                justify-self: center;
-                                            }
-                                            
-                                            .nav4 {
-                                                grid-row: 1;
-                                                grid-column 3/4;
-                                                padding: 2em;
-                                                justify-self: center;
-                                            }
-                                            
-                                            .nav5 {
-                                                grid-row: 1;
-                                                grid-column 4/5;
-                                                padding: 2em;
-                                                justify-self: center;
-                                            }
-                                            
-                                            .nav6 {
-                                                grid-row: 1;
-                                                grid-column 5/6;
-                                                padding: 2em;
-                                                justify-self: center;
-                                            }
-                                            
-                                            .nav1b {
-                                                grid-row: 2;
-                                                grid-column: 0/1;
-                                                font-size: 36px;
-                                                display: flex;
-                                                align-items: center;
-                                                justify-self: center;
-                                            }
-                                            
-                                            .nav2b {
-                                                grid-row: 2;
-                                                grid-column 1/2;
-                                                padding: 2em;
-                                                justify-self: center;
-                                            }
-                                            
-                                            .nav3b {
-                                                grid-row: 2;
-                                                grid-column 2/3;
-                                                padding: 2em;
-                                                justify-self: center;
-                                            }
-                                            
-                                            .nav4b {
-                                                grid-row: 2;
-                                                grid-column 3/4;
-                                                padding: 2em;
-                                                justify-self: center;
-                                            }
-                                            
-                                            .nav5b {
-                                                grid-row: 2;
-                                                grid-column 4/5;
-                                                padding: 2em;
-                                                justify-self: center;
-                                            }
-                                            
-                                            .logoimage {
-                                                width: 100px;
-                                            }
-                                            
-                                            a {
-                                                color: #f62e3b;
-                                                text-decoration: none;
-                                            }
-                                            
-                                            a:hover {
-                                                color: maroon;
-                                                font-size: x-large;
-                                            }
-                                            
-                                            #splash {
-                                                background-color: #f4ede1;
-                                                background-image: url("woemenarmsaround.jpg");
-                                                /* next two lines are so the image can scale but its not working*/
-                                                max-width: 100%;
-                                                height: 900px;
-                                                background-position: left bottom;
-                                                display: grid;
-                                                grid-template-columns: 20% 60% 20%;
-                                                grid-template-rows: 20% 20% 40% 20%;
-                                            }
-                                            
-                                            .splash1 {
-                                                grid-column: 2;
-                                                grid-row: 1;
-                                                font-size: 50px;
-                                                font-weight: 900;
-                                                color: #2e8bf6;
-                                                text-shadow: 2px 2px 4px black;
-                                                text-align: center;
-                                            }
-                                            
-                                            .splash2 {
-                                                grid-column: 2;
-                                                grid-row: 3;
-                                                color: #f62e3b;
-                                                font-size: 4em;
-                                                text-shadow: 2px 2px 4px black;
-                                                text-align: center;
-                                                font-family: 'Playfair Display', serif;
-                                            }
-                                            
-                                            .splash3 {
-                                                grid-column: 2;
-                                                grid-row: 4;
-                                                align-items: center;
-                                                text-align: center;
-                                            }
-                                            
-                                            #howItWorks {
-                                                text-align: center;
-                                            }
-                                            
-                                            .blueBack {
-                                                background-color: #eaf3fe;
-                                                /* margin-top: -1.3em; */
-                                            }
-                                            
-                                            .grayBack {
-                                                background-color: #f4ede1;
-                                                /* margin-top: -1.3em; */
-                                            }
-                                            
-                                            .heading {
-                                                font-size: 1.5em;
-                                                padding-top: 1.2em;
-                                            }
-                                            
-                                            .paragraph {
-                                                font-size: 1.2em;
-                                                /* margin-top: -1em; */
-                                                padding-bottom: 1.2em;
-                                                padding-left: 3em;
-                                                padding-right: 3em;
-                                            }
-                                            
-                                            .sectionTitle {
-                                                background-color: #fee6e7;
-                                                font-family: 'Playfair Display', serif;
-                                                font-size: 3.4em;
-                                                padding: 10px;
-                                                text-align: center;
-                                                color: #afc525;
-                                                text-shadow: 2px 2px 1px black;
-                                            }
-                                            
-                                            #welcomeVideo {
-                                                font-size: 1.2em;
-                                                text-align: center;
-                                                background-color: #f4ede1;
-                                            }
-                                            
-                                            #about {
-                                                background-color: #f4ede1;
-                                                display: flex;
-                                                justify-content: space-around;
-                                                /* space-around and space-between seem to do nothing. */
-                                                align-items: center;
-                                                margin-top: 1 em;
-                                                font-size: 20px;
-                                            }
-                                            
-                                            #roundHeadshot {
-                                                width: 25em;
-                                                border-color: #f62e3b;
-                                                border-width: 10px;
-                                                border-style: solid;
-                                                border-radius: 50%;
-                                                padding: 3px;
-                                                margin-left: 4em;
-                                                margin-right: 2em;
-                                                margin-top: 4em;
-                                                margin-bottom: 4em;
-                                                /* how do i add padding around the outside of the whole image? */
-                                            }
-                                            
-                                            #librarySplash {
-                                                background-color: #f4ede1;
-                                                background-image: url("womenpinkshirts.jpg");
-                                                /* next two lines are so the image can scale but its not working*/
-                                                max-width: 100%;
-                                                /* height: 900px; */
-                                                background-position: left top;
-                                                display: grid;
-                                                grid-template-columns: 10% 80% 10%;
-                                                grid-template-rows: 20% 20% 40% 20%;
-                                                background-repeat: no-repeat;
+                                                
+                                                .button2 {
+                                                    background-color: #008CBA;
+                                                }
+                                                
+                                                button:hover {
+                                                    color: #123862;
+                                                    background-color: #dbf62e;
+                                                }
+                                                
+                                                #navbar {
+                                                    display: grid;
+                                                    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr;
+                                                    font-family: 'Montserrat', sans-serif;
+                                                    font-size: 18px;
+                                                }
+                                                
+                                                #libnav {
+                                                    display: grid;
+                                                    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+                                                    grid-template-rows: 1fr 1fr;
+                                                    font-family: 'Montserrat', sans-serif;
+                                                    font-size: 18px;
+                                                    background-color: lightblue;
+                                                }
+                                                
+                                                .nav1 {
+                                                    grid-row: 1;
+                                                    grid-column: 0/1;
+                                                    font-family: 'Festive', cursive;
+                                                    font-size: 40px;
+                                                    display: flex;
+                                                    align-items: center;
+                                                }
+                                                
+                                                .nav2 {
+                                                    grid-row: 1;
+                                                    grid-column 1/2;
+                                                    padding: 2em;
+                                                    justify-self: center;
+                                                }
+                                                
+                                                .nav3 {
+                                                    grid-row: 1;
+                                                    grid-column 2/3;
+                                                    padding: 2em;
+                                                    justify-self: center;
+                                                }
+                                                
+                                                .nav4 {
+                                                    grid-row: 1;
+                                                    grid-column 3/4;
+                                                    padding: 2em;
+                                                    justify-self: center;
+                                                }
+                                                
+                                                .nav5 {
+                                                    grid-row: 1;
+                                                    grid-column 4/5;
+                                                    padding: 2em;
+                                                    justify-self: center;
+                                                }
+                                                
+                                                .nav6 {
+                                                    grid-row: 1;
+                                                    grid-column 5/6;
+                                                    padding: 2em;
+                                                    justify-self: center;
+                                                }
+                                                
+                                                .nav1b {
+                                                    grid-row: 2;
+                                                    grid-column: 0/1;
+                                                    font-size: 36px;
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-self: center;
+                                                }
+                                                
+                                                .nav2b {
+                                                    grid-row: 2;
+                                                    grid-column 1/2;
+                                                    padding: 2em;
+                                                    justify-self: center;
+                                                }
+                                                
+                                                .nav3b {
+                                                    grid-row: 2;
+                                                    grid-column 2/3;
+                                                    padding: 2em;
+                                                    justify-self: center;
+                                                }
+                                                
+                                                .nav4b {
+                                                    grid-row: 2;
+                                                    grid-column 3/4;
+                                                    padding: 2em;
+                                                    justify-self: center;
+                                                }
+                                                
+                                                .nav5b {
+                                                    grid-row: 2;
+                                                    grid-column 4/5;
+                                                    padding: 2em;
+                                                    justify-self: center;
+                                                }
+                                                
+                                                .logoimage {
+                                                    width: 100px;
+                                                }
+                                                
+                                                a {
+                                                    color: #f62e3b;
+                                                    text-decoration: none;
+                                                }
+                                                
+                                                a:hover {
+                                                    color: maroon;
+                                                    font-size: x-large;
+                                                }
+                                                
+                                                #splash {
+                                                    background-color: #f4ede1;
+                                                    background-image: url("woemenarmsaround.jpg");
+                                                    /* next two lines are so the image can scale but its not working*/
+                                                    max-width: 100%;
+                                                    height: 900px;
+                                                    background-position: left bottom;
+                                                    display: grid;
+                                                    grid-template-columns: 20% 60% 20%;
+                                                    grid-template-rows: 20% 20% 40% 20%;
+                                                }
+                                                
+                                                .splash1 {
+                                                    grid-column: 2;
+                                                    grid-row: 1;
+                                                    font-size: 50px;
+                                                    font-weight: 900;
+                                                    color: #2e8bf6;
+                                                    text-shadow: 2px 2px 4px black;
+                                                    text-align: center;
+                                                }
+                                                
+                                                .splash2 {
+                                                    grid-column: 2;
+                                                    grid-row: 3;
+                                                    color: #f62e3b;
+                                                    font-size: 4em;
+                                                    text-shadow: 2px 2px 4px black;
+                                                    text-align: center;
+                                                    font-family: 'Playfair Display', serif;
+                                                }
+                                                
+                                                .splash3 {
+                                                    grid-column: 2;
+                                                    grid-row: 4;
+                                                    align-items: center;
+                                                    text-align: center;
+                                                }
+                                                
+                                                #howItWorks {
+                                                    text-align: center;
+                                                }
+                                                
+                                                .blueBack {
+                                                    background-color: #eaf3fe;
+                                                    /* margin-top: -1.3em; */
+                                                }
+                                                
+                                                .grayBack {
+                                                    background-color: #f4ede1;
+                                                    /* margin-top: -1.3em; */
+                                                }
+                                                
+                                                .heading {
+                                                    font-size: 1.5em;
+                                                    padding-top: 1.2em;
+                                                }
+                                                
+                                                .paragraph {
+                                                    font-size: 1.2em;
+                                                    /* margin-top: -1em; */
+                                                    padding-bottom: 1.2em;
+                                                    padding-left: 3em;
+                                                    padding-right: 3em;
+                                                }
+                                                
+                                                .sectionTitle {
+                                                    background-color: #fee6e7;
+                                                    font-family: 'Playfair Display', serif;
+                                                    font-size: 3.4em;
+                                                    padding: 10px;
+                                                    text-align: center;
+                                                    color: #afc525;
+                                                    text-shadow: 2px 2px 1px black;
+                                                }
+                                                
+                                                #welcomeVideo {
+                                                    font-size: 1.2em;
+                                                    text-align: center;
+                                                    background-color: #f4ede1;
+                                                }
+                                                
+                                                #about {
+                                                    background-color: #f4ede1;
+                                                    display: flex;
+                                                    justify-content: space-around;
+                                                    /* space-around and space-between seem to do nothing. */
+                                                    align-items: center;
+                                                    margin-top: 1 em;
+                                                    font-size: 20px;
+                                                }
+                                                
+                                                #roundHeadshot {
+                                                    width: 25em;
+                                                    border-color: #f62e3b;
+                                                    border-width: 10px;
+                                                    border-style: solid;
+                                                    border-radius: 50%;
+                                                    padding: 3px;
+                                                    margin-left: 4em;
+                                                    margin-right: 2em;
+                                                    margin-top: 4em;
+                                                    margin-bottom: 4em;
+                                                    /* how do i add padding around the outside of the whole image? */
+                                                }
+                                                
+                                                #librarySplash {
+                                                    background-color: #f4ede1;
+                                                    background-image: url("womenpinkshirts.jpg");
+                                                    /* next two lines are so the image can scale but its not working*/
+                                                    max-width: 100%;
+                                                    /* height: 900px; */
+                                                    background-position: left top;
+                                                    display: grid;
+                                                    grid-template-columns: 10% 80% 10%;
+                                                    grid-template-rows: 20% 20% 40% 20%;
+                                                    background-repeat: no-repeat;
+                                                }
