@@ -289,7 +289,7 @@ a:hover {
     background-image: url("womenpinkshirts.jpg");
     /* next two lines are so the image can scale but its not working*/
     max-width: 100%;
-    height: 900px;
+    /* height: 900px; */
     background-position: left bottom;
     display: grid;
     grid-template-columns: 20% 60% 20%;
